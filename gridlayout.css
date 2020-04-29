@@ -1,7 +1,13 @@
 .gridcontainer {
-
+    display: grid;
+    grid-template-columns: 1fr 2fr 9fr 3fr 1fr;
+    grid-auto-rows: 90px minmax(200px, auto);
+    grid-gap: 20px;
+    border: 1px solid black;
+    height: 800px;
 }
 
 .grid-item {
-    
+    border: 1px solid gold;
+    height: 798px;    
 }
